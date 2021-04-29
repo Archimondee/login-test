@@ -9,6 +9,8 @@ import LoginScreen from 'screens/LoginScreen/LoginScreen';
 import SignupScreen from 'screens/SignupScreen/SignupScreen';
 import ForgotPasswordScreen from 'screens/ForgotPasswordScreen/ForgotPasswordScreen';
 import HomeScreen from 'screens/HomeScreen/HomeScreen';
+import CreditScreen from 'screens/CreditScreen/CreditScreen';
+import CreditInfoScreen from 'screens/CreditInfoScreen/CreditInfoScreen';
 
 const Main = createStackNavigator<RootStackParamList>();
 
@@ -52,6 +54,16 @@ const MainNavigator = () => {
         component={HomeScreen}
         options={{headerShown: false}}
       />
+      {/* <Main.Screen
+        name="Credit"
+        component={CreditScreen}
+        options={{title: 'Kredit Multiguna'}}
+      />
+      <Main.Screen
+        name="CreditInfo"
+        component={CreditInfoScreen}
+        options={{title: 'Kredit'}}
+      /> */}
     </Main.Navigator>
   );
 };

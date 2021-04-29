@@ -5,6 +5,8 @@ export type RootStackParamList = {
   Signup: undefined;
   ForgotPassword: undefined;
   Home: undefined;
+  Credit: undefined;
+  CreditInfo: undefined;
 };
 
 export type RootType =
@@ -13,4 +15,6 @@ export type RootType =
   | 'Main'
   | 'Signup'
   | 'ForgotPassword'
+  | 'Credit'
+  | 'CreditInfo'
   | 'Home';
